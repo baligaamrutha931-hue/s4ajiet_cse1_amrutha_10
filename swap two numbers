@@ -1,0 +1,39 @@
+///swapping two numbers using temporary variable
+class Main {
+    public static void main(String[] args) {
+        int a=2;
+        int b=3;
+        int temp;
+  System.out.println("before swap a:"+a+" and b:"+b);
+  temp=a;
+  a=b;
+  b=temp;
+  System.out.println("after swap a:"+a+" and b:"+b);
+    }
+}
+
+///swapping two numbers using operators
+class Main {
+    public static void main(String[] args) {
+        int a=2;
+        int b=3;
+  System.out.println("before swap a:"+a+" and b:"+b);
+  a=a+b;
+  b=a-b;
+  a=a-b;
+  System.out.println("after swap a:"+a+" and b:"+b);
+    }
+}
+
+///swapping two numbers using only one operator
+class Main {
+    public static void main(String[] args) {
+        int a=2;
+        int b=3;
+  System.out.println("before swap a:"+a+" and b:"+b);
+  a=a^b;
+  b=a^b;
+  a=a^b;
+  System.out.println("after swap a:"+a+" and b:"+b);
+    }
+}
