@@ -1,4 +1,4 @@
-//finding the dublicate characters in the string
+///finding the dublicate characters in the string
 
 class Main {
     public static void main(String[] args) {
