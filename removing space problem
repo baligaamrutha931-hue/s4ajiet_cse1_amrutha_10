@@ -1,0 +1,35 @@
+///removing space from string
+class Main {
+    public static void main(String[] args) {
+        String s = "hello world";
+        String t = " ";
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
+            if (ch == ' ') {
+                // skip space
+            } else {
+                t = t + ch;
+            }
+        }
+
+        System.out.println(t);
+    }
+}
+///or
+class Main {
+    public static void main(String[] args) {
+       String input="hello world";
+       StringBuilder k=new StringBuilder();
+       for(char j:input.toCharArray()){
+           if(!Character.isWhitespace(j)){
+               k.append(j);
+           }
+       }
+            String m=k.toString();
+            System.out.println(m);
+           
+       
+    }
+}
